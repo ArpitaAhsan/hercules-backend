@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json()); // Allows JSON parsing
 app.use(cors({
   origin: [
-    "https://your-vercel-app.vercel.app", // Your frontend URL
+    "https://hercules-orcin.vercel.app/", // Your frontend URL
     "http://localhost:3000" // For local testing
   ],
   credentials: true
